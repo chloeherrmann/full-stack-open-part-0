@@ -1,0 +1,16 @@
+title User creates a new note on /spa
+
+note over browser:
+Save button on form is
+clicked by the user
+end note
+
+note over browser:
+Triggered event handler
+adds user input to the
+list of notes and causes
+the list to refresh
+end note
+
+browser->server: HTTP POST /new_note_spa
+server-->browser: Responds 201
